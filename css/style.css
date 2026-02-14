@@ -340,42 +340,7 @@ body {
   flex-direction: column;
 }
 
-.pane-header {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  padding: 10px 24px;
-  border-bottom: 1px solid var(--border-subtle);
-  background: rgba(255, 255, 255, 0.03);
-}
 
-.pane-dot {
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-}
-
-.pane-dot.red {
-  background: #ef4444;
-}
-
-.pane-dot.yellow {
-  background: #f59e0b;
-}
-
-.pane-dot.green {
-  background: #22c55e;
-}
-
-.pane-label {
-  font-size: 11px;
-  font-weight: 600;
-  color: var(--text-muted);
-  margin-left: 8px;
-  font-family: var(--font-mono);
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-}
 
 .code-editor {
   flex: 1;
